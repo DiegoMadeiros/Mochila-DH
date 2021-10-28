@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+nav {
+    background-color: aquamarine;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+    padding: 0;
+    
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+}
+
+header nav ul li a{
+    
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    margin-left: 100px;  
+}
+
+header nav ul li a:hover{
+    color: brown;
+}
+
+header nav img{
+    width: 100px;
+    margin-right: 130px;
+    
+    
+
+}
+
+header nav button{
+    border-radius: 20px;
+    cursor:pointer;
+    margin-bottom: 20px;
+    border: none;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 300px;
+   
+
+}
+
+section p{
+    text-align: center;
+    font-size: 40px;
+    color:cornflowerblue;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+.sobre-nos{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}

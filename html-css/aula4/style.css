@@ -1,0 +1,116 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #2b2b2b;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9cdaf0;
+
+}
+.navbar img {
+    width: 100px;
+    cursor: pointer;
+}
+.navbar nav a {
+    margin-left: 20px;
+}
+.main-page{
+    display: flex;
+
+}
+.main-page .image-container{
+    width: 50%;
+
+}
+
+.main-page .form-container img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.main-page .form-container{
+    width: 50%;
+    min-width: 350px;
+}
+.main-page .form-container form {
+    border: 8px solid #9cdaf0;
+    border-radius: 50px;
+    padding: 50px;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 20px;
+
+
+}
+
+.main-page .form-container .field{
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.main-page .form-container .field input {
+    border-radius: 20px;
+    border: 5px solid #9cdaf0;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.main-page .form-container button {
+    background-color: #9cdaf0;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    cursor:pointer;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.main-page .form-container .login-card-footer{
+    text-align: center;
+}
+
+footer {
+    background-color:#9cdaf0;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+@media(max-width: 700px) {
+    .main-page{
+        flex-direction: column;
+    }
+    
+    .main-page .form-container{
+        width: 100%;
+    }
+
+    .main-page .image-container{
+        width: 100%;
+    
+    }
+
+    @media(max-width: 350px){
+
+    .navbar{
+
+        flex-direction: column;
+    }
+   }
+}

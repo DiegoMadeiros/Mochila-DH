@@ -1,0 +1,20 @@
+* {
+    color: gray;
+}
+
+form {
+width: 400px;
+border: solid #ccc 2px;
+border-radius: 20px;
+padding: 20px;
+margin: auto;
+margin-top: 100px;
+}
+
+form .compo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 400px;
+
+}
